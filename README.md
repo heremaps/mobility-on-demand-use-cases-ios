@@ -1,4 +1,4 @@
-# On Demand Mobility Demos (iOS)
+# Mobility On Demand Use Cases (iOS)
 
 This repository hosts a demo application developed in `Objective-C` exposing the usage of the **HERE iOS SDK** and **HERE REST APIs**.
 
