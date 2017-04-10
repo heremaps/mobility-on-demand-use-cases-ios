@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CCE15B81E9BD52200B62D82 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CCE15B71E9BD52200B62D82 /* libc++.tbd */; };
+		1CCE15BA1E9BD53000B62D82 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CCE15B91E9BD53000B62D82 /* libsqlite3.tbd */; };
+		1CCE15BC1E9BD53B00B62D82 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CCE15BB1E9BD53B00B62D82 /* libz.1.2.5.tbd */; };
+		1CCE15BE1E9BD54600B62D82 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CCE15BD1E9BD54600B62D82 /* GLKit.framework */; };
+		1CCE15C01E9BD54E00B62D82 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CCE15BF1E9BD54E00B62D82 /* SystemConfiguration.framework */; };
+		1CCE15C91E9BD70900B62D82 /* NMAKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CCE15C81E9BD70900B62D82 /* NMAKit.framework */; };
+		1CCE15CB1E9BD71200B62D82 /* NMABundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1CCE15CA1E9BD71200B62D82 /* NMABundle.bundle */; };
 		1F19A78D1D00A9DF00177D67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F19A78C1D00A9DF00177D67 /* main.m */; };
 		1F19A7901D00A9DF00177D67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F19A78F1D00A9DF00177D67 /* AppDelegate.m */; };
 		1F19A7931D00A9DF00177D67 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F19A7921D00A9DF00177D67 /* ViewController.m */; };
@@ -18,7 +25,27 @@
 		1F19A7B91D0F4ACF00177D67 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F19A7B81D0F4ACF00177D67 /* SearchViewController.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		1CCE15C41E9BD5FA00B62D82 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1CCE15B71E9BD52200B62D82 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		1CCE15B91E9BD53000B62D82 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		1CCE15BB1E9BD53B00B62D82 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		1CCE15BD1E9BD54600B62D82 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		1CCE15BF1E9BD54E00B62D82 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1CCE15C81E9BD70900B62D82 /* NMAKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NMAKit.framework; sourceTree = "<group>"; };
+		1CCE15CA1E9BD71200B62D82 /* NMABundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = NMABundle.bundle; path = NMAKit.framework/Resources/NMABundle.bundle; sourceTree = "<group>"; };
 		1F19A7881D00A9DE00177D67 /* OnDemandPassenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnDemandPassenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F19A78C1D00A9DF00177D67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1F19A78E1D00A9DF00177D67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -43,17 +70,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CCE15C91E9BD70900B62D82 /* NMAKit.framework in Frameworks */,
+				1CCE15C01E9BD54E00B62D82 /* SystemConfiguration.framework in Frameworks */,
+				1CCE15BE1E9BD54600B62D82 /* GLKit.framework in Frameworks */,
+				1CCE15BC1E9BD53B00B62D82 /* libz.1.2.5.tbd in Frameworks */,
+				1CCE15BA1E9BD53000B62D82 /* libsqlite3.tbd in Frameworks */,
+				1CCE15B81E9BD52200B62D82 /* libc++.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CCE15B61E9BD52200B62D82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CCE15BF1E9BD54E00B62D82 /* SystemConfiguration.framework */,
+				1CCE15BD1E9BD54600B62D82 /* GLKit.framework */,
+				1CCE15BB1E9BD53B00B62D82 /* libz.1.2.5.tbd */,
+				1CCE15B91E9BD53000B62D82 /* libsqlite3.tbd */,
+				1CCE15B71E9BD52200B62D82 /* libc++.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1F19A77F1D00A9DE00177D67 = {
 			isa = PBXGroup;
 			children = (
+				1CCE15CA1E9BD71200B62D82 /* NMABundle.bundle */,
+				1CCE15C81E9BD70900B62D82 /* NMAKit.framework */,
 				1F19A78A1D00A9DF00177D67 /* OnDemandPassenger */,
 				1F19A7891D00A9DE00177D67 /* Products */,
+				1CCE15B61E9BD52200B62D82 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +154,7 @@
 				1F19A7841D00A9DE00177D67 /* Sources */,
 				1F19A7851D00A9DE00177D67 /* Frameworks */,
 				1F19A7861D00A9DE00177D67 /* Resources */,
+				1CCE15C41E9BD5FA00B62D82 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,6 +176,7 @@
 				TargetAttributes = {
 					1F19A7871D00A9DE00177D67 = {
 						CreatedOnToolsVersion = 7.3.1;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -155,6 +205,7 @@
 			files = (
 				1F19A79B1D00A9DF00177D67 /* LaunchScreen.storyboard in Resources */,
 				1F19A7961D00A9DF00177D67 /* Main.storyboard in Resources */,
+				1CCE15CB1E9BD71200B62D82 /* NMABundle.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,15 +334,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/OnDemandPassenger",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = OnDemandPassenger/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.here.OnDemandPassenger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -299,15 +354,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/OnDemandPassenger",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = OnDemandPassenger/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.here.OnDemandPassenger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
