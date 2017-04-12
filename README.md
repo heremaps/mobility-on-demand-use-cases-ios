@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/heremaps/mobility-on-demand-use-cases-ios.svg?branch=master)](https://travis-ci.org/heremaps/mobility-on-demand-use-cases-ios)
+
 # Mobility On Demand Use Cases (iOS)
 
 This repository hosts a demo application developed in `Objective-C` exposing the usage of the **HERE iOS SDK** and **HERE REST APIs**.
