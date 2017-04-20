@@ -1,6 +1,6 @@
 platform :ios, '9.0'
 
-target 'OnDemandPassenger' do
+target 'OnDemandPassengerTests' do
   use_frameworks!
 
   pod 'Quick', '1.1.0'
