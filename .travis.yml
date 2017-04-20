@@ -8,7 +8,7 @@ env:
   - WORKSPACE=OnDemandPassenger.xcworkspace
   - SCHEME=OnDemandPassenger
   - SDK=iphonesimulator10.3
-  - RUN_TESTS="NO"
+  - RUN_TESTS="YES"
   - POD_LINT="NO"
   - secure: "TWwwhkYnn9FyGJf+Bfg4VzAM0nI4nWKCDQV2pcB/6thlROQ4y8WNF4tobrxFHNwZryUvwaxXNbVGMEcAiLE709ybXXWdySY0dayoKopgQE9HYwGn0uvdmYVjzs4Fz+UZ/ml+oIxmSRnX1GAoA1bc+CSY/Pw7M5cTkSa0vjfVVuPtiKZAGmiYs2iYXWAl0GXrV67ZdNOG+0KBivwDWn3qrkMzdCLpK0frgQLBTnjrce/OGq0SyxFOvWmAO6m9uflVk4riPkSLU5pF9uVy3I8O1xsRWpnA+42ldKBKEeEE4hRmIn9lfg887RahcWNYSbfhy76seKw8H6nuYZPLXDKGscQaBuS08sQzS/ifYeEK7GiUiYplKDW8lwXxGAgAK+OPR8YdWuYJ/1N2mDmKvzkgQJERC7jXaQzwwO8QidxDo26JjcUagFgfEhw/6fV5OFc3Pj4oqRjpdvUHcKKEtbTqeNfTO4BuQsfGzciu+r+3xnSMp6CzJxF929L0c4fR8wMnm+MjFUJfBoVaZm7v/BFv47DqUJWpFkdM/FIJN7PFAktppmLmQMA5wfKzAiYC+ipwvobTbpeau0Xn1TMlho3uGz5LTk2wC1LpFiczQz5az2zeP+oaxxHKA2OBfJl6E1Pbjp9vu9saTbv9LJw/Anta9WaUPsPKdojJe/hEZ0HmPn8="
   matrix:
