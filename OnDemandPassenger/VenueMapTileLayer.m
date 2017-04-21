@@ -4,7 +4,6 @@
  */
 
 #import "VenueMapTileLayer.h"
-#import "Constants.h"
 #import "VenueService.h"
 
 @interface VenueMapTileLayer ()
