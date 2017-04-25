@@ -10,6 +10,7 @@
 		1C07D16A1EA8E216002E88D6 /* ViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C07D1691EA8E216002E88D6 /* ViewControllerTests.m */; };
 		1C07D16B1EA8E22B002E88D6 /* NMAKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CCE15C81E9BD70900B62D82 /* NMAKit.framework */; };
 		1C07D16C1EA8E22E002E88D6 /* NMABundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1CCE15CA1E9BD71200B62D82 /* NMABundle.bundle */; };
+		1C354F201EAA174C00DC27CC /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C354F1F1EAA174C00DC27CC /* Constants.m */; };
 		1CCE15B81E9BD52200B62D82 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CCE15B71E9BD52200B62D82 /* libc++.tbd */; };
 		1CCE15BA1E9BD53000B62D82 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CCE15B91E9BD53000B62D82 /* libsqlite3.tbd */; };
 		1CCE15BC1E9BD53B00B62D82 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CCE15BB1E9BD53B00B62D82 /* libz.1.2.5.tbd */; };
@@ -23,7 +24,6 @@
 		1F19A7961D00A9DF00177D67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F19A7941D00A9DF00177D67 /* Main.storyboard */; };
 		1F19A79B1D00A9DF00177D67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F19A7991D00A9DF00177D67 /* LaunchScreen.storyboard */; };
 		1F19A7B01D00D96E00177D67 /* VenueMapTileLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F19A7AF1D00D96E00177D67 /* VenueMapTileLayer.m */; };
-		1F19A7B31D00E27500177D67 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F19A7B21D00E27500177D67 /* Constants.m */; };
 		1F19A7B61D01F66E00177D67 /* VenueService.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F19A7B51D01F66E00177D67 /* VenueService.m */; };
 		1F19A7B91D0F4ACF00177D67 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F19A7B81D0F4ACF00177D67 /* SearchViewController.m */; };
 		416A4E1306D483CE7D916E90 /* Pods_OnDemandPassengerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6C2B5E9F2059C75E9DAEA6 /* Pods_OnDemandPassengerTests.framework */; };
@@ -56,6 +56,8 @@
 		1C07D15F1EA8E034002E88D6 /* OnDemandPassengerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnDemandPassengerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C07D1631EA8E034002E88D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C07D1691EA8E216002E88D6 /* ViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerTests.m; sourceTree = "<group>"; };
+		1C354F1E1EAA174C00DC27CC /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		1C354F1F1EAA174C00DC27CC /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 		1CCE15B71E9BD52200B62D82 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		1CCE15B91E9BD53000B62D82 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		1CCE15BB1E9BD53B00B62D82 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
@@ -74,8 +76,6 @@
 		1F19A79C1D00A9DF00177D67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F19A7AE1D00D96E00177D67 /* VenueMapTileLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VenueMapTileLayer.h; sourceTree = "<group>"; };
 		1F19A7AF1D00D96E00177D67 /* VenueMapTileLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VenueMapTileLayer.m; sourceTree = "<group>"; };
-		1F19A7B11D00E27500177D67 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
-		1F19A7B21D00E27500177D67 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 		1F19A7B41D01F66E00177D67 /* VenueService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VenueService.h; sourceTree = "<group>"; };
 		1F19A7B51D01F66E00177D67 /* VenueService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VenueService.m; sourceTree = "<group>"; };
 		1F19A7B71D0F4ACF00177D67 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
@@ -170,8 +170,8 @@
 				1F19A7B51D01F66E00177D67 /* VenueService.m */,
 				1F19A7AE1D00D96E00177D67 /* VenueMapTileLayer.h */,
 				1F19A7AF1D00D96E00177D67 /* VenueMapTileLayer.m */,
-				1F19A7B11D00E27500177D67 /* Constants.h */,
-				1F19A7B21D00E27500177D67 /* Constants.m */,
+				1C354F1E1EAA174C00DC27CC /* Constants.h */,
+				1C354F1F1EAA174C00DC27CC /* Constants.m */,
 				1F19A7941D00A9DF00177D67 /* Main.storyboard */,
 				1F19A7991D00A9DF00177D67 /* LaunchScreen.storyboard */,
 				1F19A79C1D00A9DF00177D67 /* Info.plist */,
@@ -360,9 +360,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F19A7B31D00E27500177D67 /* Constants.m in Sources */,
 				1F19A7931D00A9DF00177D67 /* ViewController.m in Sources */,
 				1F19A7901D00A9DF00177D67 /* AppDelegate.m in Sources */,
+				1C354F201EAA174C00DC27CC /* Constants.m in Sources */,
 				1F19A7B01D00D96E00177D67 /* VenueMapTileLayer.m in Sources */,
 				1F19A78D1D00A9DF00177D67 /* main.m in Sources */,
 				1F19A7B61D01F66E00177D67 /* VenueService.m in Sources */,
@@ -538,6 +538,11 @@
 					"$(PROJECT_DIR)/OnDemandPassenger",
 					"$(PROJECT_DIR)",
 				);
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = OnDemandPassenger/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.here.OnDemandPassenger;
@@ -558,6 +563,7 @@
 					"$(PROJECT_DIR)/OnDemandPassenger",
 					"$(PROJECT_DIR)",
 				);
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = OnDemandPassenger/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.here.OnDemandPassenger;

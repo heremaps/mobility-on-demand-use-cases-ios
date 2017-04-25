@@ -5,5 +5,5 @@
 
 #import <Foundation/Foundation.h>
 
-FOUNDATION_EXPORT NSString* const APP_ID;
-FOUNDATION_EXPORT NSString* const APP_CODE;
+FOUNDATION_EXPORT NSString* APP_ID;
+FOUNDATION_EXPORT NSString* APP_CODE;

@@ -15,7 +15,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    [NMAApplicationContext setAppId:APP_ID appCode:APP_CODE];
+    NSString *environmentAppId = [[NSProcessInfo processInfo] environment][@"HERE_SDK_APP_ID"];
+    NSString *environmentAppCode = [[NSProcessInfo processInfo] environment][@"HERE_SDK_APP_CODE"];
+    NSString *appId = environmentAppId != nil ? environmentAppId : APP_ID;
+    NSString *appCode = environmentAppCode != nil ? environmentAppCode : APP_CODE;
+    APP_ID = appId;
+    APP_CODE = appCode;
+    [NMAApplicationContext setAppId:appId appCode:appCode];
     return YES;
 }
 
