@@ -92,8 +92,7 @@
     NSString *urlString = [NSString
         stringWithFormat:@"https://share.here.com/r/%@/%@?m=w", fromLocation, toLocation];
     NSURL *myURL = [NSURL URLWithString:urlString];
-
-    [[UIApplication sharedApplication] openURL:myURL];
+    [[UIApplication sharedApplication] openURL:myURL options:@{} completionHandler:nil];
 }
 
 @end
