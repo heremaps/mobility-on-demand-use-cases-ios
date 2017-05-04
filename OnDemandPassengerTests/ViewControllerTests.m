@@ -36,7 +36,7 @@ describe(@"ViewController", ^{
             OCMStub(toPlaceLink.position).andReturn([[NMAGeoCoordinates alloc] initWithLatitude:12.0 longitude:13.0]);
             viewController.toPlaceLink = toPlaceLink;
             [viewController openHereApp:nil];
-            OCMVerify([mockApplication openURL:OCMOCK_ANY]);
+            OCMVerify([mockApplication openURL:OCMOCK_ANY options:OCMOCK_ANY completionHandler:nil]);
         });
     });
 });
