@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		115D6318228060C200E4342F /* VenueServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 115D6317228060C200E4342F /* VenueServiceTests.m */; };
 		11EF95F9227896B1003B8D47 /* VenueMapTileLayerUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 11EF95F8227896B1003B8D47 /* VenueMapTileLayerUtility.m */; };
 		11EF95FD2278980A003B8D47 /* VenueMapTileLayerUtilityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11EF95FC2278980A003B8D47 /* VenueMapTileLayerUtilityTests.m */; };
 		1C07D16A1EA8E216002E88D6 /* ViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C07D1691EA8E216002E88D6 /* ViewControllerTests.m */; };
@@ -52,6 +53,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		115D6317228060C200E4342F /* VenueServiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VenueServiceTests.m; sourceTree = "<group>"; };
 		11EF95F7227896B0003B8D47 /* VenueMapTileLayerUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VenueMapTileLayerUtility.h; sourceTree = "<group>"; };
 		11EF95F8227896B1003B8D47 /* VenueMapTileLayerUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VenueMapTileLayerUtility.m; sourceTree = "<group>"; };
 		11EF95FC2278980A003B8D47 /* VenueMapTileLayerUtilityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VenueMapTileLayerUtilityTests.m; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				1C07D1631EA8E034002E88D6 /* Info.plist */,
 				1C07D1691EA8E216002E88D6 /* ViewControllerTests.m */,
 				11EF95FC2278980A003B8D47 /* VenueMapTileLayerUtilityTests.m */,
+				115D6317228060C200E4342F /* VenueServiceTests.m */,
 			);
 			path = OnDemandPassengerTests;
 			sourceTree = "<group>";
@@ -404,6 +407,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C07D16A1EA8E216002E88D6 /* ViewControllerTests.m in Sources */,
+				115D6318228060C200E4342F /* VenueServiceTests.m in Sources */,
 				11EF95FD2278980A003B8D47 /* VenueMapTileLayerUtilityTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

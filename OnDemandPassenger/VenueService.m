@@ -48,7 +48,10 @@ static NSString* signedQueryString;
             NSURLSession *session = [NSURLSession sessionWithConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration]];
             [[session dataTaskWithRequest:request completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
                 id json = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
-                signedQueryString = json[@"SignedQueryString"];
+                NSString *jsonString = json[@"SignedQueryString"];
+                if (jsonString && ![[NSNull null] isEqual:jsonString]) {
+                    signedQueryString = jsonString;
+                }
                 // Signature has been stored, we can release the semaphore because any waiting threads will be able to just reuse this signature and won't perform a new request
                 dispatch_semaphore_signal(_semaphore);
                 dispatch_async(completionQueue, ^{
