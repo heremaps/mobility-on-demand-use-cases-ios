@@ -10,16 +10,13 @@ env:
   - SDK=iphonesimulator10.3
   - RUN_TESTS="YES"
   - POD_LINT="NO"
-  - secure: "TWwwhkYnn9FyGJf+Bfg4VzAM0nI4nWKCDQV2pcB/6thlROQ4y8WNF4tobrxFHNwZryUvwaxXNbVGMEcAiLE709ybXXWdySY0dayoKopgQE9HYwGn0uvdmYVjzs4Fz+UZ/ml+oIxmSRnX1GAoA1bc+CSY/Pw7M5cTkSa0vjfVVuPtiKZAGmiYs2iYXWAl0GXrV67ZdNOG+0KBivwDWn3qrkMzdCLpK0frgQLBTnjrce/OGq0SyxFOvWmAO6m9uflVk4riPkSLU5pF9uVy3I8O1xsRWpnA+42ldKBKEeEE4hRmIn9lfg887RahcWNYSbfhy76seKw8H6nuYZPLXDKGscQaBuS08sQzS/ifYeEK7GiUiYplKDW8lwXxGAgAK+OPR8YdWuYJ/1N2mDmKvzkgQJERC7jXaQzwwO8QidxDo26JjcUagFgfEhw/6fV5OFc3Pj4oqRjpdvUHcKKEtbTqeNfTO4BuQsfGzciu+r+3xnSMp6CzJxF929L0c4fR8wMnm+MjFUJfBoVaZm7v/BFv47DqUJWpFkdM/FIJN7PFAktppmLmQMA5wfKzAiYC+ipwvobTbpeau0Xn1TMlho3uGz5LTk2wC1LpFiczQz5az2zeP+oaxxHKA2OBfJl6E1Pbjp9vu9saTbv9LJw/Anta9WaUPsPKdojJe/hEZ0HmPn8="
-  - secure: "QKSMlDiDAaGBeIgSdd8Rug05Ds2/OkIAEDLMVuDPfwhzu+iB52Nt/Q9hoTDIKzYOn1rHjgoW0mpCtkcpi//g4+qvAzMEggaer8OWEmucjPGwDZMMXsvAS0JKMz0Ygg3gN8i3V2UMtZfMDU2o7DIYUfaRPwsOvBnyblk2mITrejfY6ZUumC6dG/LLcjFvur7i1H1LuWbG0Ftq4AEsrTyNfBo8pX1i2zmOq6rVeXnZIHSSLWiX8HwAqJ05vXimC3dEFRPcsS0VHPR+MFlnTR5a+lvqivtXLs9Za0uonzH30ggISMXvR537gXteuUjHrFf4k0GNsvaPw3WxEwoicYhFtCSoYFK+xIN9RSsYZd4ZSizAxNdZxl4wsclTBXmE7IsBQdJ9Dv6ak/Ddux+W/5j9ZMBWuB2uzv964/lE3dfanTUlzkcUTN8KvgOSexPofNNIQxOWvK+Ihma6HHjMxkmSDz3gPT7lJtptYlStWnfcgjPCXIzGvMgiXmQxdNBK1RJP1JiG6P7C4jo0+WS7zNgVLP2VFZk1swK4fzRPvqBRdoWve3D8ETAftTacbGtJg1shNOHAwsuTzKVxNbh0+GvH+6AQ08Dv7tPPr+B22PLpZE4GeI+ZtDkDe0Cyg3f33Ghm9XztmoKjbMiPWCyOTTU2V2zPiMTFsobZTdMpHoA5EmE="
-  - secure: "ZBGwLCui0URwfXA9CJNYAaZ71e7FcZ9fXIkRwp7Fz3Q0ocexpPdP3RHKZlXRpKIHb19kSpg/S7i52oF5a60aBO32pje1kJKzVfEYd1TA99ZUJNyDy24FBkQj1oRScc8yhyw8JnATu9f5Q4h8MsTtQkp5fKVX5dAJprS4shr/UGfPwyK34pd5zilU5Nbr9fKxJ0mg/6YFhiKv+HMORRnYsSh4gVwlh5fu8HdsFd7h1EYzilg3FsgaHHyO44M5+d3ck+9F3buz4QhaoAHblaLnI0KBi6/anBUAuvn8kvf7saaE68KWVdyvMPy/G3ebRqRmHXdLiYClgC5H+S3OnENDdSimauk+I65C2vqxCw1uG9J1x9Bw+eMDQUMwqujzzymEQZF0f39/J2DSKQzp00Dqf8mJWAqvuXhj0bjkki0fHCKrZoUJAku65o9Yr0tK7x02TuDHvPtGuBcR520PhmgncEz8bVCFVSMnI54c3EO9FLXBznR7SegzLxga5McG2Z0a+Bkoe0NZ/BfinTtaPvFc4Iw7l+//VdTz5IgDpx1Il8nlUYY+v+hUpz8IZnXW2rtuZIjSf33DpxWyDxiSI9oa0QruwquLB01qATi7rHaEz+iQ+rqNc/xGPRfTMZFwqBP0TVjePxjceH/8RxNvdOiV0X+VH8fMlel1oUPGI8zVQc4="
   matrix:
-    - DESTINATION="OS=10.3,name=iPhone SE"
+    - DESTINATION="OS=10.3.1,name=iPhone SE"
 
 before_install:
   - rm -rf /Users/travis/Library/Developer/Xcode/DerivedData/OnDemandPassenger-*/
   - rvm use $RVM_RUBY_VERSION
-  - wget "$SDK_URL" -q -O HERE_iOS_SDK_Starter.tar.gz
+  - wget "$HERE_SDK_URL" -q -O HERE_iOS_SDK_Starter.tar.gz
   - tar -xzf HERE_iOS_SDK_Starter.tar.gz
   - cp -r HERE_iOS_SDK_Starter/framework/NMAKit.framework .
   - pod repo update
@@ -32,7 +29,7 @@ script:
 
 # Build App in Debug and Run Tests if specified
   - if [ $RUN_TESTS == "YES" ]; then
-      travis_retry xcodebuild -workspace "$WORKSPACE" -scheme "$SCHEME" -sdk "$SDK" -destination "$DESTINATION" -configuration Debug ONLY_ACTIVE_ARCH=NO ENABLE_TESTABILITY=YES HERE_SDK_APP_ID="$HERE_SDK_APP_ID" HERE_SDK_APP_CODE="$HERE_SDK_APP_CODE" test | xcpretty;
+      travis_retry xcodebuild -workspace "$WORKSPACE" -scheme "$SCHEME" -sdk "$SDK" -destination "$DESTINATION" -configuration Debug ONLY_ACTIVE_ARCH=NO ENABLE_TESTABILITY=YES test | xcpretty;
     else
-      travis_retry xcodebuild -workspace "$WORKSPACE" -scheme "$SCHEME" -sdk "$SDK" -destination "$DESTINATION" -configuration Debug ONLY_ACTIVE_ARCH=NO HERE_SDK_APP_ID="$HERE_SDK_APP_ID" HERE_SDK_APP_CODE="$HERE_SDK_APP_CODE" build | xcpretty;
+      travis_retry xcodebuild -workspace "$WORKSPACE" -scheme "$SCHEME" -sdk "$SDK" -destination "$DESTINATION" -configuration Debug ONLY_ACTIVE_ARCH=NO build | xcpretty;
     fi
