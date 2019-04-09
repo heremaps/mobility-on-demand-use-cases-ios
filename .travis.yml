@@ -16,9 +16,6 @@ env:
 before_install:
   - rm -rf /Users/travis/Library/Developer/Xcode/DerivedData/OnDemandPassenger-*/
   - rvm use $RVM_RUBY_VERSION
-  - wget "$HERE_SDK_URL" -q -O HERE_iOS_SDK_Starter.tar.gz
-  - tar -xzf HERE_iOS_SDK_Starter.tar.gz
-  - cp -r HERE_iOS_SDK_Starter/framework/NMAKit.framework .
   - bundle install
   - bundle exec pod repo update
   - bundle

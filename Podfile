@@ -1,8 +1,17 @@
 platform :ios, '9.0'
 
+def shared_pods
+  pod 'HEREMapsStarter', '>= 3.10'
+end
+
+target 'OnDemandPassenger' do
+  shared_pods
+end
+
 target 'OnDemandPassengerTests' do
   use_frameworks!
 
+  shared_pods
   pod 'Quick', '1.3.4'
   pod 'OCMock', '3.4'
   pod 'Expecta', '1.0.5'
