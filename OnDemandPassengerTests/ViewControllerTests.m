@@ -39,10 +39,10 @@ describe(@"ViewController", ^{
             id mockApplication = OCMClassMock([UIApplication class]);
             OCMStub([mockApplication sharedApplication]).andReturn(mockApplication);
             OCMStub([mockApplication canOpenURL:OCMOCK_ANY]).andReturn(YES);
-            NMAPlaceLink *fromPlaceLink = [[NMAPlaceLink alloc] init];
+            NMAPlaceLink *fromPlaceLink = OCMClassMock([NMAPlaceLink class]);
             OCMStub(fromPlaceLink.position).andReturn([[NMAGeoCoordinates alloc] initWithLatitude:10.0 longitude:11.0]);
             viewController.fromPlaceLink = fromPlaceLink;
-            NMAPlaceLink *toPlaceLink = [[NMAPlaceLink alloc] init];
+            NMAPlaceLink *toPlaceLink = OCMClassMock([NMAPlaceLink class]);
             OCMStub(toPlaceLink.position).andReturn([[NMAGeoCoordinates alloc] initWithLatitude:12.0 longitude:13.0]);
             viewController.toPlaceLink = toPlaceLink;
             [viewController openHereApp:nil];
