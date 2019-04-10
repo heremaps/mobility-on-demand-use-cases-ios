@@ -8,16 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1C07D16A1EA8E216002E88D6 /* ViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C07D1691EA8E216002E88D6 /* ViewControllerTests.m */; };
-		1C07D16B1EA8E22B002E88D6 /* NMAKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CCE15C81E9BD70900B62D82 /* NMAKit.framework */; };
-		1C07D16C1EA8E22E002E88D6 /* NMABundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1CCE15CA1E9BD71200B62D82 /* NMABundle.bundle */; };
 		1C354F201EAA174C00DC27CC /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C354F1F1EAA174C00DC27CC /* Constants.m */; };
-		1CCE15B81E9BD52200B62D82 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CCE15B71E9BD52200B62D82 /* libc++.tbd */; };
-		1CCE15BA1E9BD53000B62D82 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CCE15B91E9BD53000B62D82 /* libsqlite3.tbd */; };
-		1CCE15BC1E9BD53B00B62D82 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CCE15BB1E9BD53B00B62D82 /* libz.1.2.5.tbd */; };
-		1CCE15BE1E9BD54600B62D82 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CCE15BD1E9BD54600B62D82 /* GLKit.framework */; };
-		1CCE15C01E9BD54E00B62D82 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CCE15BF1E9BD54E00B62D82 /* SystemConfiguration.framework */; };
-		1CCE15C91E9BD70900B62D82 /* NMAKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CCE15C81E9BD70900B62D82 /* NMAKit.framework */; };
-		1CCE15CB1E9BD71200B62D82 /* NMABundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1CCE15CA1E9BD71200B62D82 /* NMABundle.bundle */; };
 		1F19A78D1D00A9DF00177D67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F19A78C1D00A9DF00177D67 /* main.m */; };
 		1F19A7901D00A9DF00177D67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F19A78F1D00A9DF00177D67 /* AppDelegate.m */; };
 		1F19A7931D00A9DF00177D67 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F19A7921D00A9DF00177D67 /* ViewController.m */; };
@@ -27,6 +18,7 @@
 		1F19A7B61D01F66E00177D67 /* VenueService.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F19A7B51D01F66E00177D67 /* VenueService.m */; };
 		1F19A7B91D0F4ACF00177D67 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F19A7B81D0F4ACF00177D67 /* SearchViewController.m */; };
 		416A4E1306D483CE7D916E90 /* Pods_OnDemandPassengerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6C2B5E9F2059C75E9DAEA6 /* Pods_OnDemandPassengerTests.framework */; };
+		CEFEF49FEE033429118F595B /* libPods-OnDemandPassenger.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6F48886BAF6BB2361B0815B /* libPods-OnDemandPassenger.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,18 +45,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		11C7865C2066AB846FB59A29 /* Pods-OnDemandPassenger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnDemandPassenger.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OnDemandPassenger/Pods-OnDemandPassenger.debug.xcconfig"; sourceTree = "<group>"; };
 		1C07D15F1EA8E034002E88D6 /* OnDemandPassengerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnDemandPassengerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C07D1631EA8E034002E88D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C07D1691EA8E216002E88D6 /* ViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerTests.m; sourceTree = "<group>"; };
 		1C354F1E1EAA174C00DC27CC /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		1C354F1F1EAA174C00DC27CC /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
-		1CCE15B71E9BD52200B62D82 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
-		1CCE15B91E9BD53000B62D82 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
-		1CCE15BB1E9BD53B00B62D82 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
-		1CCE15BD1E9BD54600B62D82 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
-		1CCE15BF1E9BD54E00B62D82 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		1CCE15C81E9BD70900B62D82 /* NMAKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NMAKit.framework; sourceTree = "<group>"; };
-		1CCE15CA1E9BD71200B62D82 /* NMABundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = NMABundle.bundle; path = NMAKit.framework/Resources/NMABundle.bundle; sourceTree = "<group>"; };
 		1F19A7881D00A9DE00177D67 /* OnDemandPassenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnDemandPassenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F19A78C1D00A9DF00177D67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1F19A78E1D00A9DF00177D67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -81,8 +67,9 @@
 		1F19A7B71D0F4ACF00177D67 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
 		1F19A7B81D0F4ACF00177D67 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 		2C1B40D1528DC472C8E893A5 /* Pods-OnDemandPassengerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnDemandPassengerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OnDemandPassengerTests/Pods-OnDemandPassengerTests.release.xcconfig"; sourceTree = "<group>"; };
-		91A2A30C4939160D2E6BBB74 /* Pods_OnDemandPassenger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnDemandPassenger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A514689BF009D9B7AC21C9EB /* Pods-OnDemandPassenger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnDemandPassenger.release.xcconfig"; path = "Pods/Target Support Files/Pods-OnDemandPassenger/Pods-OnDemandPassenger.release.xcconfig"; sourceTree = "<group>"; };
 		AA6C2B5E9F2059C75E9DAEA6 /* Pods_OnDemandPassengerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnDemandPassengerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6F48886BAF6BB2361B0815B /* libPods-OnDemandPassenger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OnDemandPassenger.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD4A27E281FB96F7703F3FF0 /* Pods-OnDemandPassengerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnDemandPassengerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OnDemandPassengerTests/Pods-OnDemandPassengerTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,7 +78,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C07D16B1EA8E22B002E88D6 /* NMAKit.framework in Frameworks */,
 				416A4E1306D483CE7D916E90 /* Pods_OnDemandPassengerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -100,12 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CCE15C91E9BD70900B62D82 /* NMAKit.framework in Frameworks */,
-				1CCE15C01E9BD54E00B62D82 /* SystemConfiguration.framework in Frameworks */,
-				1CCE15BE1E9BD54600B62D82 /* GLKit.framework in Frameworks */,
-				1CCE15BC1E9BD53B00B62D82 /* libz.1.2.5.tbd in Frameworks */,
-				1CCE15BA1E9BD53000B62D82 /* libsqlite3.tbd in Frameworks */,
-				1CCE15B81E9BD52200B62D82 /* libc++.tbd in Frameworks */,
+				CEFEF49FEE033429118F595B /* libPods-OnDemandPassenger.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,13 +105,8 @@
 		1CCE15B61E9BD52200B62D82 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1CCE15BF1E9BD54E00B62D82 /* SystemConfiguration.framework */,
-				1CCE15BD1E9BD54600B62D82 /* GLKit.framework */,
-				1CCE15BB1E9BD53B00B62D82 /* libz.1.2.5.tbd */,
-				1CCE15B91E9BD53000B62D82 /* libsqlite3.tbd */,
-				1CCE15B71E9BD52200B62D82 /* libc++.tbd */,
-				91A2A30C4939160D2E6BBB74 /* Pods_OnDemandPassenger.framework */,
 				AA6C2B5E9F2059C75E9DAEA6 /* Pods_OnDemandPassengerTests.framework */,
+				B6F48886BAF6BB2361B0815B /* libPods-OnDemandPassenger.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -138,8 +114,6 @@
 		1F19A77F1D00A9DE00177D67 = {
 			isa = PBXGroup;
 			children = (
-				1CCE15CA1E9BD71200B62D82 /* NMABundle.bundle */,
-				1CCE15C81E9BD70900B62D82 /* NMAKit.framework */,
 				1F19A78A1D00A9DF00177D67 /* OnDemandPassenger */,
 				1C07D1601EA8E034002E88D6 /* OnDemandPassengerTests */,
 				1F19A7891D00A9DE00177D67 /* Products */,
@@ -193,6 +167,8 @@
 			children = (
 				BD4A27E281FB96F7703F3FF0 /* Pods-OnDemandPassengerTests.debug.xcconfig */,
 				2C1B40D1528DC472C8E893A5 /* Pods-OnDemandPassengerTests.release.xcconfig */,
+				11C7865C2066AB846FB59A29 /* Pods-OnDemandPassenger.debug.xcconfig */,
+				A514689BF009D9B7AC21C9EB /* Pods-OnDemandPassenger.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -225,10 +201,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F19A79F1D00A9DF00177D67 /* Build configuration list for PBXNativeTarget "OnDemandPassenger" */;
 			buildPhases = (
+				A8A4C479863A9F8CC0CEF11D /* [CP] Check Pods Manifest.lock */,
 				1F19A7841D00A9DE00177D67 /* Sources */,
 				1F19A7851D00A9DE00177D67 /* Frameworks */,
 				1F19A7861D00A9DE00177D67 /* Resources */,
 				1CCE15C41E9BD5FA00B62D82 /* Embed Frameworks */,
+				5C2374AFEFF062AADA2B1567 /* [CP] Embed Pods Frameworks */,
+				7841028569468E6EC6AF6454 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -264,6 +243,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -283,7 +263,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C07D16C1EA8E22E002E88D6 /* NMABundle.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,7 +272,6 @@
 			files = (
 				1F19A79B1D00A9DF00177D67 /* LaunchScreen.storyboard in Resources */,
 				1F19A7961D00A9DF00177D67 /* Main.storyboard in Resources */,
-				1CCE15CB1E9BD71200B62D82 /* NMABundle.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,7 +308,52 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OnDemandPassengerTests/Pods-OnDemandPassengerTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		5C2374AFEFF062AADA2B1567 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OnDemandPassenger/Pods-OnDemandPassenger-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7841028569468E6EC6AF6454 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OnDemandPassenger/Pods-OnDemandPassenger-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		990250BF82DD6E2FBCDBB29D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A8A4C479863A9F8CC0CEF11D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -528,6 +551,7 @@
 		};
 		1F19A7A01D00A9DF00177D67 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11C7865C2066AB846FB59A29 /* Pods-OnDemandPassenger.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -555,6 +579,7 @@
 		};
 		1F19A7A11D00A9DF00177D67 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A514689BF009D9B7AC21C9EB /* Pods-OnDemandPassenger.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";

@@ -21,7 +21,7 @@ Unless otherwise noted in `LICENSE` files for specific files or directories, the
 ## Setting up the application
 
 * Replace `YOUR_APP_ID` and `YOUR_APP_CODE` placeholder values in `OnDemandPassenger/Constants.m` with your own HERE credentials.
-* Download the HERE iOS Starter SDK (you can do that from your project). The example uses *version 3.3* of the SDK.
+* Download the HERE iOS Starter SDK (you can do that from your project). The example uses *version 3.10* of the SDK.
 * Configure this project to use the HERE SDK. See [Creating a Simple Application Using the HERE SDK](https://developer.here.com/mobile-sdks/documentation/ios/topics/app-simple.html), in particular the `Configure the Application` section.
 
 ## Notes
