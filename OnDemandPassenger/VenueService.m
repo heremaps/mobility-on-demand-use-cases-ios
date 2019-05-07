@@ -34,9 +34,9 @@ static NSString* signedQueryString;
 - (void)requestSignature:(dispatch_queue_t)completionQueue completionBlock:(void (^)(NSString *signedQueryString))completionBlock {
     dispatch_async(_queue, ^{
         // Only need to request signature once, then we store it locally, so using a semaphore here to wait for the single signature request to return.
-        dispatch_semaphore_wait(_semaphore, DISPATCH_TIME_FOREVER);
+        dispatch_semaphore_wait(self->_semaphore, DISPATCH_TIME_FOREVER);
         if (signedQueryString) {
-            dispatch_semaphore_signal(_semaphore);
+            dispatch_semaphore_signal(self->_semaphore);
             dispatch_async(completionQueue, ^{
                 completionBlock(signedQueryString);
             });
@@ -48,9 +48,12 @@ static NSString* signedQueryString;
             NSURLSession *session = [NSURLSession sessionWithConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration]];
             [[session dataTaskWithRequest:request completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
                 id json = [NSJSONSerialization JSONObjectWithData:data options:0 error:nil];
-                signedQueryString = json[@"SignedQueryString"];
+                NSString *jsonString = json[@"SignedQueryString"];
+                if (jsonString && ![[NSNull null] isEqual:jsonString]) {
+                    signedQueryString = jsonString;
+                }
                 // Signature has been stored, we can release the semaphore because any waiting threads will be able to just reuse this signature and won't perform a new request
-                dispatch_semaphore_signal(_semaphore);
+                dispatch_semaphore_signal(self->_semaphore);
                 dispatch_async(completionQueue, ^{
                     completionBlock(signedQueryString);
                 });

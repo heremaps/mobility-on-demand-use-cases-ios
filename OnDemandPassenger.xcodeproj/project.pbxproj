@@ -7,8 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		115D6318228060C200E4342F /* VenueServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 115D6317228060C200E4342F /* VenueServiceTests.m */; };
+		11EF95F9227896B1003B8D47 /* VenueMapTileLayerUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 11EF95F8227896B1003B8D47 /* VenueMapTileLayerUtility.m */; };
+		11EF95FD2278980A003B8D47 /* VenueMapTileLayerUtilityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11EF95FC2278980A003B8D47 /* VenueMapTileLayerUtilityTests.m */; };
 		1C07D16A1EA8E216002E88D6 /* ViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C07D1691EA8E216002E88D6 /* ViewControllerTests.m */; };
 		1C354F201EAA174C00DC27CC /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C354F1F1EAA174C00DC27CC /* Constants.m */; };
+		1CCE15B81E9BD52200B62D82 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CCE15B71E9BD52200B62D82 /* libc++.tbd */; };
+		1CCE15BA1E9BD53000B62D82 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CCE15B91E9BD53000B62D82 /* libsqlite3.tbd */; };
+		1CCE15BC1E9BD53B00B62D82 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CCE15BB1E9BD53B00B62D82 /* libz.1.2.5.tbd */; };
+		1CCE15BE1E9BD54600B62D82 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CCE15BD1E9BD54600B62D82 /* GLKit.framework */; };
+		1CCE15C01E9BD54E00B62D82 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CCE15BF1E9BD54E00B62D82 /* SystemConfiguration.framework */; };
 		1F19A78D1D00A9DF00177D67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F19A78C1D00A9DF00177D67 /* main.m */; };
 		1F19A7901D00A9DF00177D67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F19A78F1D00A9DF00177D67 /* AppDelegate.m */; };
 		1F19A7931D00A9DF00177D67 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F19A7921D00A9DF00177D67 /* ViewController.m */; };
@@ -18,7 +26,7 @@
 		1F19A7B61D01F66E00177D67 /* VenueService.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F19A7B51D01F66E00177D67 /* VenueService.m */; };
 		1F19A7B91D0F4ACF00177D67 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F19A7B81D0F4ACF00177D67 /* SearchViewController.m */; };
 		416A4E1306D483CE7D916E90 /* Pods_OnDemandPassengerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6C2B5E9F2059C75E9DAEA6 /* Pods_OnDemandPassengerTests.framework */; };
-		CEFEF49FEE033429118F595B /* libPods-OnDemandPassenger.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6F48886BAF6BB2361B0815B /* libPods-OnDemandPassenger.a */; };
+		86C5E0B7AC0A27A4970314CB /* libPods-OnDemandPassenger.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF209C41FAE867D2969AC04C /* libPods-OnDemandPassenger.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,12 +53,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		11C7865C2066AB846FB59A29 /* Pods-OnDemandPassenger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnDemandPassenger.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OnDemandPassenger/Pods-OnDemandPassenger.debug.xcconfig"; sourceTree = "<group>"; };
+		115D6317228060C200E4342F /* VenueServiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VenueServiceTests.m; sourceTree = "<group>"; };
+		11EF95F7227896B0003B8D47 /* VenueMapTileLayerUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VenueMapTileLayerUtility.h; sourceTree = "<group>"; };
+		11EF95F8227896B1003B8D47 /* VenueMapTileLayerUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VenueMapTileLayerUtility.m; sourceTree = "<group>"; };
+		11EF95FC2278980A003B8D47 /* VenueMapTileLayerUtilityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VenueMapTileLayerUtilityTests.m; sourceTree = "<group>"; };
 		1C07D15F1EA8E034002E88D6 /* OnDemandPassengerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnDemandPassengerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C07D1631EA8E034002E88D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C07D1691EA8E216002E88D6 /* ViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerTests.m; sourceTree = "<group>"; };
 		1C354F1E1EAA174C00DC27CC /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		1C354F1F1EAA174C00DC27CC /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		1CCE15B71E9BD52200B62D82 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		1CCE15B91E9BD53000B62D82 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		1CCE15BB1E9BD53B00B62D82 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		1CCE15BD1E9BD54600B62D82 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		1CCE15BF1E9BD54E00B62D82 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		1F19A7881D00A9DE00177D67 /* OnDemandPassenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnDemandPassenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F19A78C1D00A9DF00177D67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1F19A78E1D00A9DF00177D67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,10 +83,11 @@
 		1F19A7B71D0F4ACF00177D67 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
 		1F19A7B81D0F4ACF00177D67 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 		2C1B40D1528DC472C8E893A5 /* Pods-OnDemandPassengerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnDemandPassengerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OnDemandPassengerTests/Pods-OnDemandPassengerTests.release.xcconfig"; sourceTree = "<group>"; };
-		A514689BF009D9B7AC21C9EB /* Pods-OnDemandPassenger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnDemandPassenger.release.xcconfig"; path = "Pods/Target Support Files/Pods-OnDemandPassenger/Pods-OnDemandPassenger.release.xcconfig"; sourceTree = "<group>"; };
+		5CFF08AE18B42748FFDCC964 /* Pods-OnDemandPassenger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnDemandPassenger.release.xcconfig"; path = "Pods/Target Support Files/Pods-OnDemandPassenger/Pods-OnDemandPassenger.release.xcconfig"; sourceTree = "<group>"; };
+		9BDCE11057B2713527316971 /* Pods-OnDemandPassenger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnDemandPassenger.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OnDemandPassenger/Pods-OnDemandPassenger.debug.xcconfig"; sourceTree = "<group>"; };
 		AA6C2B5E9F2059C75E9DAEA6 /* Pods_OnDemandPassengerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OnDemandPassengerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6F48886BAF6BB2361B0815B /* libPods-OnDemandPassenger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OnDemandPassenger.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD4A27E281FB96F7703F3FF0 /* Pods-OnDemandPassengerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OnDemandPassengerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OnDemandPassengerTests/Pods-OnDemandPassengerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CF209C41FAE867D2969AC04C /* libPods-OnDemandPassenger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OnDemandPassenger.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +103,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEFEF49FEE033429118F595B /* libPods-OnDemandPassenger.a in Frameworks */,
+				1CCE15C01E9BD54E00B62D82 /* SystemConfiguration.framework in Frameworks */,
+				1CCE15BE1E9BD54600B62D82 /* GLKit.framework in Frameworks */,
+				1CCE15BC1E9BD53B00B62D82 /* libz.1.2.5.tbd in Frameworks */,
+				1CCE15BA1E9BD53000B62D82 /* libsqlite3.tbd in Frameworks */,
+				1CCE15B81E9BD52200B62D82 /* libc++.tbd in Frameworks */,
+				86C5E0B7AC0A27A4970314CB /* libPods-OnDemandPassenger.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +120,8 @@
 			children = (
 				1C07D1631EA8E034002E88D6 /* Info.plist */,
 				1C07D1691EA8E216002E88D6 /* ViewControllerTests.m */,
+				11EF95FC2278980A003B8D47 /* VenueMapTileLayerUtilityTests.m */,
+				115D6317228060C200E4342F /* VenueServiceTests.m */,
 			);
 			path = OnDemandPassengerTests;
 			sourceTree = "<group>";
@@ -105,8 +129,13 @@
 		1CCE15B61E9BD52200B62D82 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1CCE15BF1E9BD54E00B62D82 /* SystemConfiguration.framework */,
+				1CCE15BD1E9BD54600B62D82 /* GLKit.framework */,
+				1CCE15BB1E9BD53B00B62D82 /* libz.1.2.5.tbd */,
+				1CCE15B91E9BD53000B62D82 /* libsqlite3.tbd */,
+				1CCE15B71E9BD52200B62D82 /* libc++.tbd */,
 				AA6C2B5E9F2059C75E9DAEA6 /* Pods_OnDemandPassengerTests.framework */,
-				B6F48886BAF6BB2361B0815B /* libPods-OnDemandPassenger.a */,
+				CF209C41FAE867D2969AC04C /* libPods-OnDemandPassenger.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -134,6 +163,8 @@
 		1F19A78A1D00A9DF00177D67 /* OnDemandPassenger */ = {
 			isa = PBXGroup;
 			children = (
+				11EF95F7227896B0003B8D47 /* VenueMapTileLayerUtility.h */,
+				11EF95F8227896B1003B8D47 /* VenueMapTileLayerUtility.m */,
 				1F19A78E1D00A9DF00177D67 /* AppDelegate.h */,
 				1F19A78F1D00A9DF00177D67 /* AppDelegate.m */,
 				1F19A7B71D0F4ACF00177D67 /* SearchViewController.h */,
@@ -167,8 +198,8 @@
 			children = (
 				BD4A27E281FB96F7703F3FF0 /* Pods-OnDemandPassengerTests.debug.xcconfig */,
 				2C1B40D1528DC472C8E893A5 /* Pods-OnDemandPassengerTests.release.xcconfig */,
-				11C7865C2066AB846FB59A29 /* Pods-OnDemandPassenger.debug.xcconfig */,
-				A514689BF009D9B7AC21C9EB /* Pods-OnDemandPassenger.release.xcconfig */,
+				9BDCE11057B2713527316971 /* Pods-OnDemandPassenger.debug.xcconfig */,
+				5CFF08AE18B42748FFDCC964 /* Pods-OnDemandPassenger.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -201,13 +232,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1F19A79F1D00A9DF00177D67 /* Build configuration list for PBXNativeTarget "OnDemandPassenger" */;
 			buildPhases = (
-				A8A4C479863A9F8CC0CEF11D /* [CP] Check Pods Manifest.lock */,
+				3B65B444CA5E23E7CD858255 /* [CP] Check Pods Manifest.lock */,
 				1F19A7841D00A9DE00177D67 /* Sources */,
 				1F19A7851D00A9DE00177D67 /* Frameworks */,
 				1F19A7861D00A9DE00177D67 /* Resources */,
 				1CCE15C41E9BD5FA00B62D82 /* Embed Frameworks */,
-				5C2374AFEFF062AADA2B1567 /* [CP] Embed Pods Frameworks */,
-				7841028569468E6EC6AF6454 /* [CP] Copy Pods Resources */,
+				84E8528C68DCDE9028FAE263 /* [CP] Embed Pods Frameworks */,
+				614217752C317DB2115BB46E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -224,11 +255,12 @@
 		1F19A7801D00A9DE00177D67 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = HERE;
 				TargetAttributes = {
 					1C07D15E1EA8E034002E88D6 = {
 						CreatedOnToolsVersion = 8.3.1;
+						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 1F19A7871D00A9DE00177D67;
 					};
@@ -240,10 +272,9 @@
 			};
 			buildConfigurationList = 1F19A7831D00A9DE00177D67 /* Build configuration list for PBXProject "OnDemandPassenger" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 				Base,
 			);
@@ -308,37 +339,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OnDemandPassengerTests/Pods-OnDemandPassengerTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5C2374AFEFF062AADA2B1567 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OnDemandPassenger/Pods-OnDemandPassenger-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7841028569468E6EC6AF6454 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OnDemandPassenger/Pods-OnDemandPassenger-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		990250BF82DD6E2FBCDBB29D /* [CP] Check Pods Manifest.lock */ = {
+		3B65B444CA5E23E7CD858255 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -353,7 +354,37 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		A8A4C479863A9F8CC0CEF11D /* [CP] Check Pods Manifest.lock */ = {
+		614217752C317DB2115BB46E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OnDemandPassenger/Pods-OnDemandPassenger-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84E8528C68DCDE9028FAE263 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OnDemandPassenger/Pods-OnDemandPassenger-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		990250BF82DD6E2FBCDBB29D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -376,6 +407,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C07D16A1EA8E216002E88D6 /* ViewControllerTests.m in Sources */,
+				115D6318228060C200E4342F /* VenueServiceTests.m in Sources */,
+				11EF95FD2278980A003B8D47 /* VenueMapTileLayerUtilityTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +421,7 @@
 				1C354F201EAA174C00DC27CC /* Constants.m in Sources */,
 				1F19A7B01D00D96E00177D67 /* VenueMapTileLayer.m in Sources */,
 				1F19A78D1D00A9DF00177D67 /* main.m in Sources */,
+				11EF95F9227896B1003B8D47 /* VenueMapTileLayerUtility.m in Sources */,
 				1F19A7B61D01F66E00177D67 /* VenueService.m in Sources */,
 				1F19A7B91D0F4ACF00177D67 /* SearchViewController.m in Sources */,
 			);
@@ -429,6 +463,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -441,6 +476,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.here.OnDemandPassengerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OnDemandPassenger.app/OnDemandPassenger";
 			};
 			name = Debug;
@@ -451,6 +488,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -463,6 +501,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.here.OnDemandPassengerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OnDemandPassenger.app/OnDemandPassenger";
 			};
 			name = Release;
@@ -476,13 +515,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -520,13 +569,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -551,7 +610,7 @@
 		};
 		1F19A7A01D00A9DF00177D67 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 11C7865C2066AB846FB59A29 /* Pods-OnDemandPassenger.debug.xcconfig */;
+			baseConfigurationReference = 9BDCE11057B2713527316971 /* Pods-OnDemandPassenger.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -579,7 +638,7 @@
 		};
 		1F19A7A11D00A9DF00177D67 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A514689BF009D9B7AC21C9EB /* Pods-OnDemandPassenger.release.xcconfig */;
+			baseConfigurationReference = 5CFF08AE18B42748FFDCC964 /* Pods-OnDemandPassenger.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";

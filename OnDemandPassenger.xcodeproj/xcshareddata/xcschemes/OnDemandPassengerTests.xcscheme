@@ -39,6 +39,15 @@
             </BuildableReference>
          </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "1C07D15E1EA8E034002E88D6"
+            BuildableName = "OnDemandPassengerTests.xctest"
+            BlueprintName = "OnDemandPassengerTests"
+            ReferencedContainer = "container:OnDemandPassenger.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -70,15 +79,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1C07D15E1EA8E034002E88D6"
-            BuildableName = "OnDemandPassengerTests.xctest"
-            BlueprintName = "OnDemandPassengerTests"
-            ReferencedContainer = "container:OnDemandPassenger.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

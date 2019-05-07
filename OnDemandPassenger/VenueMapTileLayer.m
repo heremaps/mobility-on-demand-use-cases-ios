@@ -4,6 +4,7 @@
  */
 
 #import "VenueMapTileLayer.h"
+#import "VenueMapTileLayerUtility.h"
 #import "VenueService.h"
 
 @interface VenueMapTileLayer ()
@@ -41,29 +42,6 @@
     return self;
 }
 
-/**
- * This operation transforms a set of tile x and y coordinates and a zoomlevel into a quadkey for use with the Venue Tile API
- */
-+ (NSString *)quadKeyFromX:(NSUInteger)tileX
-                         y:(NSUInteger)tileY
-                 zoomLevel:(NSUInteger)zoomLevel {
-    NSMutableString *quadKey = [NSMutableString string];
-    for (NSInteger i = zoomLevel; i > 0; i--) {
-        int digit = 0;
-        NSUInteger mask = 1 << (i - 1);
-        NSUInteger maskedX = tileX & mask;
-        if (maskedX != 0) {
-            digit++;
-        }
-        NSUInteger maskedY = tileY & mask;
-        if (maskedY != 0) {
-            digit++;
-            digit++;
-        }
-        [quadKey appendFormat:@"%d", digit];
-    }
-    return quadKey;
-}
 
 - (NSString *)mapTileLayer:(NMAMapTileLayer *)mapTileLayer
              urlForTileAtX:(NSUInteger)tileX
@@ -73,7 +51,7 @@
     int server = 1 + (tileX % 2) + 2 * (tileY % 2);
     NSString* url = [NSString stringWithFormat:@"https://static-%d.venue.maps.cit.api.here.com/0/tiles-png/L0/%@.png%@",
                      server,
-                     [VenueMapTileLayer quadKeyFromX:tileX y:tileY zoomLevel:zoomLevel],
+                     [VenueMapTileLayerUtility quadKeyFromX:tileX y:tileY zoomLevel:zoomLevel],
                      self.signedQueryString];
     return url;
 }
